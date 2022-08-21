@@ -1,0 +1,230 @@
+main{
+    width: 100%;
+}
+li.nav-item a.link {
+    color: #080808b0;
+    background: #fff;
+    margin: 0 15px;
+    border-radius: 10px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #6c5ffc;
+    border-radius: 10px;
+}
+section.sash-main {
+    background-color: #f1f4fb;
+    margin-top: 0;
+}
+.name_sash{
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 0;
+    text-align: center;
+    color: #0d0c22;
+}
+img.vertical {
+    width: 100%;
+    margin-top: 10px;
+    transform: scale(1.0);
+    transition: 0.5s;
+}
+.box:hover img.vertical {
+    
+    transform: scale(0.95);
+}
+.box {
+    background: #8080801c;
+    margin: 15px 15px;
+    border-radius: 10px;
+}
+.chu{
+    font-size: 20px;
+    font-weight: 500;
+  
+}
+
+/* .carousel-item .slide_img{
+    display: flex;
+    justify-content: space-between;
+}
+.carousel-item .slide_img img{
+    width: calc(100% / 4.2);
+}
+.carousel-indicators [data-bs-target] {
+    opacity: 0;
+} */
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,.carousel-inner .carousel-item-start { transform: translateX(0);}
+span.carousel-control-next-icon,span.carousel-control-prev-icon {
+    border-radius: 50%;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    color: #000;
+    line-height: 37px;
+    font-weight: 600;
+    font-size: 22px;
+}
+.carousel-control-next { left: 91%;}
+.carousel-control-prev {left: -6%;}
+.img-fluid{width: 96%;}
+
+.bg-primary{
+    background-color: #6c5ffc !important;
+    color: #fff;
+}
+.admin_sash,.admin_sash1{
+    font-size: 39px;
+}
+.thesash1,.thesash2{
+    color: rgba(255, 255, 255, 0.8);
+}
+.thesash1_1,.thesash2_2{
+    color: #76839a !important;}
+iframe {
+    border: 0;
+    width: 100%;
+    border-radius: 8px;
+}
+.admin_sash1{
+    color: #76839a;
+}
+.features{
+    background: rgb(231 229 245);
+}
+.name_features{
+    font-size: 26px;
+    font-weight: 500;
+    color: #0d0c22;
+}
+.check_features{
+    font-size: 15px;
+    padding: 0 0px;
+}
+.name_template{
+    font-size: 26px;
+    font-weight: 500;
+}
+.user{
+    font-size: 15px;
+    line-height: 22px;
+}
+.card-header {
+    padding: 18px;}
+.sash_template,.node{
+    color: #000;
+}
+.template{
+    background: #f1f4fb;
+}
+.name_makes {
+    color: #000;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.text{
+    color: #76839a;
+    line-height:28px;
+}
+.related{
+    background-color: #f1f4fb;
+}
+.name_related,.name_main{
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+   
+}
+.here_sash{
+    font-size: 15px;
+    font-weight: 400;
+    color: #76839a;
+    padding: 0 0px;
+}
+.sash_custom{
+    color: #76839a;
+}
+.card{
+    transform: scale(1.0);
+    border: none;
+    transition: 0.5s;
+   
+}
+
+.card:hover{
+    box-shadow: 0 0 18px 0px #0000002b;
+    transform: scale(1.05);
+  
+}
+.card.khung:hover,.card.khung5:hover,.card.khung9:hover,.card.khung11:hover {
+    border: 1px solid red;
+    box-shadow: none;
+}
+.card.khung1:hover,.card.khung3:hover,.card.khung6:hover {
+    border: 1px solid rgb(151 240 231);
+    box-shadow: none;
+}
+.card.khung2:hover,.card.khung4:hover,.card.khung8:hover {
+    border: 1px solid rgb(135, 110, 218);
+    box-shadow: none;
+}
+.card.khung7:hover,.card.khung10:hover{
+    border: 1px solid rgb(236, 236, 122);
+    box-shadow: none;
+}
+.box_main{
+    display: flex;
+}
+.icon{
+    width: 30%;  
+}
+
+.custom1{
+    padding-left: 20px;
+}
+span.mail{
+    color: orange;
+}
+
+.card.bg-info {
+    background-color: #4f44c982 !important;
+    box-shadow: 0 0 12px 6px #ffffff1f;
+}
+@media screen and (max-width:440px) {
+    .font{
+        font-size: 10px;
+    }
+    
+}
+
